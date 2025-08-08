@@ -197,7 +197,7 @@ install_base_system() {
     
     # Install base packages with zen kernel
     pacstrap /mnt base base-devel linux-zen linux-zen-headers linux-firmware networkmanager \
-             systemd-boot os-prober ntfs-3g dosfstools mtools vim nano sudo git curl wget \
+             os-prober ntfs-3g dosfstools mtools nano sudo git curl wget \
              pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber zsh
     
     print_success "Base system installed"
